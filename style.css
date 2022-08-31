@@ -41,3 +41,9 @@ html{
     scroll-behavior: smooth;
     stop-opacity: 7rem;
 }
+
+section{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem;
+}
