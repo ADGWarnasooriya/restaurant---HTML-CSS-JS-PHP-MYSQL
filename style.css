@@ -47,3 +47,11 @@ section{
     max-width: 1200px;
     padding: 2rem;
 }
+
+.header{
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background-color: var(--white);
+    border-bottom: var(--border);
+}
