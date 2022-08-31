@@ -16,3 +16,28 @@
     outline: none;border: none;
     text-decoration: none;
 }
+
+*::selection{
+    background-color: var(--yellow);
+    color:var(--white) ;
+}
+
+::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--yellow);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    stop-opacity: 7rem;
+}
