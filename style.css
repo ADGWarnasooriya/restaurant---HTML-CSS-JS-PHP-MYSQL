@@ -90,6 +90,11 @@ section{
     color: var(--yellow);
 }
 
+.header .flex .icons span{
+    font-size: 2rem;
+}
+
 #menu-btn{
     display: none;
 }
+
