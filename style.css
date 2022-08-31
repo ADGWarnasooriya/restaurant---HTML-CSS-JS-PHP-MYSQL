@@ -85,3 +85,7 @@ section{
     color: var(--black);
     cursor: pointer;
 }
+
+.header .flex .icons > *:hover{
+    color: var(--yellow);
+}
