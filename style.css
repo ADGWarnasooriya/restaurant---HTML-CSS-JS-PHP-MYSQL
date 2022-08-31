@@ -89,3 +89,7 @@ section{
 .header .flex .icons > *:hover{
     color: var(--yellow);
 }
+
+#menu-btn{
+    display: none;
+}
